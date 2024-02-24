@@ -1,0 +1,112 @@
+body{
+    background-color: #6e77ee;
+}
+
+.main{
+    background-color: #fefefe;
+    /*background-color: #6e77ee;*/
+
+    margin-top: 100px;
+
+    padding: 20px;
+
+    position: absolute;
+
+    top: 30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+
+    align-items: center;
+    text-align: center;
+
+    max-width: 600px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 600px){
+    .main{
+        margin-top: 150px;
+    }
+}
+.profileContainer{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #6e77ee;
+
+    object-fit: cover;
+
+    cursor: pointer;
+}
+.imageLabel{
+    border-radius: 50%;
+}
+
+.welcomeText{
+    color: rgba(110, 119, 238, 0.7);
+}
+
+.nameField{
+    margin-top: 20px;
+}
+
+.fields{
+    transition: all 0.3s;
+}
+.fields:hover, .fields:focus-within{
+    border-color: #6e77ee;
+    color: #6e77ee;
+}
+.fields::placeholder{
+    transition: all 0.3s;
+}
+.fields:hover::placeholder{
+    color: #6e77ee;
+    transition: all 0.3s;
+}
+
+.btnRow{
+    margin-top: 20px;
+}
+
+.buttons{
+
+    background-color: inherit;
+
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-style: solid;
+    border-radius: 10px;
+
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+
+    color: #6e77ee;
+    font-weight: bold;
+
+    width: 100%;
+
+    transition: all 0.3s;
+}
+.buttons:hover{
+    background-color: #6e77ee;
+
+    color: #fefefe;
+}
+
+.anonButton{
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-style: solid;
+    border-radius: 10px;
+
+    color: #6e77ee;
+    font-weight: bold;
+}
+.anonButton:hover{
+    background-color: #6e77ee;
+
+    color: #fefefe;
+}

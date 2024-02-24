@@ -1,0 +1,97 @@
+body{
+    background-color: #6e77ee;
+}
+
+.logoutBtn:hover{
+    color: rgba(255, 0, 0, 0.7);
+}
+
+.tableContainer{
+    background-color: #fefefe;
+
+    border-radius: 15px;
+
+    margin-top: 7%;
+
+    padding: 25px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.tableRow{
+    vertical-align: middle;
+    transition: all 0.1s;
+}
+.tableRow:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fefefe;
+}
+
+.tableButton{
+    background-color: #fefefe;
+
+    border-style: solid;
+    border-color: #6e77ee;
+    border-radius: 5px;
+
+    margin: 5px;
+
+    color: #6e77ee;
+
+    transition: all 0.2s;
+}
+.tableButton:hover{
+    background-color: #6e77ee;
+
+    color: #fefefe;
+}
+
+.tableButton:hover .icon{
+    stroke: #fefefe;
+}
+
+
+.btnAdd{
+    width: 70px;
+    height: 70px;
+
+    position: fixed;
+
+    right: 30px;
+    bottom: 30px;
+
+    background-color: #fefefe;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-radius: 50%;
+
+    box-shadow: 1px 1px 10px black;
+}
+.btnAdd path{
+    stroke: #4a50a9;
+}
+.btnAdd:hover{
+    border-color: #fefefe;
+}
+.btnAdd:hover path{
+    stroke: #fefefe;
+}
+
+.anonButton{
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-style: solid;
+    border-radius: 10px;
+
+    color: #6e77ee;
+    font-weight: bold;
+}
+.anonButton:hover{
+    background-color: #6e77ee;
+
+    color: #fefefe;
+}

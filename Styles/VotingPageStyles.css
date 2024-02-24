@@ -1,0 +1,88 @@
+body{
+    background-color: #6e77ee;
+
+    padding-bottom: 50px;
+}
+
+.backBtn{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.container{
+    margin-top: 50px;
+
+    align-items: center;
+    align-content: center;
+}
+
+.roomTitle{
+
+    border-bottom-width: 3px;
+    border-bottom-color: #fefefe;
+    border-bottom-style: solid;
+
+    color: #fefefe;
+
+    padding-bottom: 5px;
+}
+
+.candidateContainer{
+    margin-top: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 5px;
+    padding-bottom: 20px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.radioContainer{
+    width: 100%;
+}
+.radioContainer input{
+    position: absolute;
+    right: 50%;
+
+    height: 20px;
+    width: 20px;
+}
+.radioContainer input:checked{
+    background-color: #6e77ee;
+}
+
+.progress{
+    margin-top: 5px;
+}
+.progress-bar{
+    background-color: #6e77ee;
+}
+
+.voteBtn{
+    background-color: #fefefe;
+
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-style: solid;
+    border-radius: 10px;
+
+    width: 100%;
+
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+
+    color: #6e77ee;
+    font-weight: bold;
+
+    transition: all 0.3s;
+}
+.voteBtn:hover{
+    background-color: #6e77ee;
+
+    border-color: #fefefe;
+
+    color: #fefefe;
+}

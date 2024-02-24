@@ -1,0 +1,150 @@
+body{
+    background-color: #6e77ee;
+
+    padding-bottom: 50px;
+}
+
+.backBtn{
+    background-color: transparent;
+    border-color: transparent;
+
+    cursor: pointer;
+}
+
+.container{
+    z-index: 1;
+}
+
+.titleField{
+    margin-top: 40px;
+}
+.titleField:hover input{
+    border-color: #6e77ee;
+}
+.titleField input:focus{
+    color: #6e77ee;
+}
+
+.fields:hover input,
+.fields:hover textarea{
+    border-color: #6e77ee;
+    color: #6e77ee;
+}
+.fields input:focus,
+.fields textarea:focus{
+    border-color: #6e77ee;
+    color: #6e77ee;
+}
+
+.candidateContainer{
+    margin-top: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.candidateCard{
+    margin: 5px;
+
+    z-index: 1;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.submitButton{
+    background-color: #fefefe;
+
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-style: solid;
+    border-radius: 10px;
+
+    width: 100%;
+
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+
+    color: #6e77ee;
+    font-weight: bold;
+
+    transition: all 0.3s;
+}
+.submitButton:hover{
+    background-color: #6e77ee;
+
+    border-color: #fefefe;
+
+    color: #fefefe;
+}
+
+.btnAdd{
+    width: 70px;
+    height: 70px;
+
+    position: fixed;
+
+    right: 30px;
+    bottom: 30px;
+
+    background-color: #fefefe;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-radius: 50%;
+
+    box-shadow: 1px 1px 10px black;
+}
+.btnAdd path{
+    stroke: #4a50a9;
+
+    z-index: 1000;
+}
+.btnAdd:hover{
+    border-color: #fefefe;
+}
+.btnAdd:hover path{
+    stroke: #fefefe;
+}
+
+.buttons{
+
+    background-color: inherit;
+
+    border-width: 2px;
+    border-color: #6e77ee;
+    border-style: solid;
+    border-radius: 10px;
+
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+
+    color: #6e77ee;
+    font-weight: bold;
+
+    width: 100%;
+
+    transition: all 0.3s;
+}
+.buttons:hover{
+    background-color: #6e77ee;
+
+    color: #fefefe;
+}
+.switchButton{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.switchButton label{
+    color: #fefefe;
+    margin-left: 15px;
+}
+.switchButton input{
+    scale: 1.5;
+}
+.switchButton input:checked{
+    background-color: #6e77ee;
+    border-color: #fefefe;
+}
